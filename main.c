@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int age = 20;
-    printf("%d", age);
+    float gpa = 4.0;
+    printf("%d \t %.2f", age, gpa);
     return 0;
 }
